@@ -1,0 +1,90 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #ebebebce;
+}
+/* 
+#date-container {
+  color: goldenrod;
+  font-size: 6vw;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+}
+
+#clock {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 5vw;
+  min-height: 10vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+
+  /* background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; */
+}
+
+#controls {
+  margin-top: 16px;
+}
+
+button {
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(126, 255, 56);
+}
+
+#date-container {
+  min-height: 100 vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.set-alarm {
+  background-color: rgb(36, 133, 229);
+}
+
+.stop-alarm {
+  background-color: rgb(233, 92, 92);
+}
+
+#heading {
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2vw;
+  min-height: 5vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh;
+  padding: 0%
+}
+
+#input {
+    margin-top: 10vh;
+}
